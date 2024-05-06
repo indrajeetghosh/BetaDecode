@@ -102,7 +102,7 @@ data = next(dataiter)
 print(type(data))
 
 input_shape = (32, 1200)
-latent_dim = 256
+latent_dim = 32
 epochs = 32
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
