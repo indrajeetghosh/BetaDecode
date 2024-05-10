@@ -176,7 +176,6 @@ average_correlation = np.mean(channel_correlations)
 #print(f"Average Pearson Correlation Coefficient across channels: {average_correlation}")
 
 data = {
-    'RRMSE Spectral': [rrmse_spectral],
     'RRMSE Temporal': [rrmse_temporal],
     'Pearson Correlation Coefficient': [average_correlation]
 }
