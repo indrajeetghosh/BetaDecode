@@ -145,14 +145,13 @@ original_signals = np.concatenate(original_signals, axis=0)
 reconstructed_signals = np.concatenate(reconstructed_signals, axis=0)
 reconstructed_signals = np.transpose(reconstructed_signals, (0, 2, 1))
 
-rrmse_spectral = np.sqrt(np.mean(np.square(original_signals - reconstructed_signals)))
-rrmse_temporal = np.sqrt(np.mean(np.square(original_signals - reconstructed_signals)))
+rms_n = np.sqrt(np.mean(np.square(reconstructed_signals - original_signals)))
+rms_d = np.sqrt(np.mean(np.square(original_signals)))
+rrmse_temporal = rms_n / rms_d
 
 original_signals_flattened = original_signals.reshape(-1)
 reconstructed_signals_flattened = reconstructed_signals.reshape(-1)
 
-
-#print("RRMSE Spectral:", rrmse_spectral)
 #print("RRMSE Temporal:", rrmse_temporal)
 
 
