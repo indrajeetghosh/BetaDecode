@@ -24,8 +24,10 @@ To get started, clone this repository:
 
 ```bash
 git clone https://github.com/indrajeetghosh/Beta-Decode.git
+'''bash
 
 Install packages:
 
 ```bash
 pip3 install -r requirements.txt
+'''bash
