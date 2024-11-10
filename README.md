@@ -11,3 +11,7 @@ main objectives: (i) learning global and local temporal dependencies within time
 ![Beta-Decode Framework](Beta_Decode.png)
 
 The architecture of Beta-Decode consists of two main stages: training and inference. The training phase has two modules: a modal-specific noise coupling strategy applied to clean signals, followed by a dot-product attention-based beta-variational autoencoder module to learns the local and global temporal representation of the noisy signals and reconstructs the denoised signals. During inference phase, the trained model is applied to unseen Raw signals to separate noise and reconstruct denoised signals.
+
+![Result](result.png)
+
+Comparison between the state-of-the-art 5 unsupervised denoising algorithms (traditional based: EEMD-ICA, ICA-HHT, and wavelet-based ICA [29] and (ii) deep learning-based: transformers and LSTM autoencoder frameworks) vs 𝛽-Decode across two public (EEG Passive Sensing and EEGdenoiseNet) and our in-house Working Memory (WoM) datasets. The top and 2nd best results are in bold and underlined, respectively. 
