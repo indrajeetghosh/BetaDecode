@@ -35,3 +35,17 @@ Once inside the repository directory, install the required packages by running:
 ```bash
 pip3 install -r requirements.txt
 ```
+
+## Contact
+
+If you have any questions, please feel free to reach out via email at [indrajeetghosh@umbc.edu](mailto:indrajeetghosh@umbc.edu).
+
+## Acknowledgements
+
+This work has been partially supported by:
+- U.S. Army Grant #W911NF2120076
+- NSF CAREER Award #1750936
+- ONR Grant #N00014-23-1-2119
+- NSF REU Site Grant #2050999
+- NSF CNS EAGER Grant #2233879
+
