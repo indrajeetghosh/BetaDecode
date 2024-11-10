@@ -21,5 +21,4 @@ Comparison between the state-of-the-art 5 unsupervised denoising algorithms (tra
 To get started, clone this repository:
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/indrajeetghosh/Beta-Decode.git
