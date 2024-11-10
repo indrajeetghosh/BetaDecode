@@ -22,16 +22,16 @@ Comparison between the state-of-the-art 5 unsupervised denoising algorithms (tra
 
 To get started, clone this repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/indrajeetghosh/Beta-Decode.git
 cd Beta-Decode
-\`\`\`
+```
 
 
 ### Install Packages
 
 Once inside the repository directory, install the required packages by running:
 
-\`\`\`bash
+```bash
 pip3 install -r requirements.txt
-\`\`\`
+```
