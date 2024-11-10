@@ -11,4 +11,6 @@ main objectives: (i) learning global and local temporal dependencies within time
 
 **Overall Pipeline:-**
 
-[Beta-Decode Framework: The architecture of Beta-Decode consists of two main stages: training and inference. The training phase has two modules: a modal-specific noise coupling strategy applied to clean signals, followed by a dot-product attention-based beta-variational autoencoder module to learns the local and global temporal representation of the noisy signals and reconstructs the denoised signals. During inference phase, the trained model is applied to unseen Raw signals to separate noise and reconstruct denoised signals.](Beta_Decode.png)
+![Beta-Decode Framework](Beta_Decode.png)
+
+The architecture of Beta-Decode consists of two main stages: training and inference. The training phase has two modules: a modal-specific noise coupling strategy applied to clean signals, followed by a dot-product attention-based beta-variational autoencoder module to learns the local and global temporal representation of the noisy signals and reconstructs the denoised signals. During inference phase, the trained model is applied to unseen Raw signals to separate noise and reconstruct denoised signals.
