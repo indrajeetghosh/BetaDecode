@@ -16,7 +16,7 @@ The architecture of Beta-Decode consists of two main stages: training and infere
 
 Comparison between the state-of-the-art 5 unsupervised denoising algorithms (traditional based: EEMD-ICA, ICA-HHT, and wavelet-based ICA [29] and (ii) deep learning-based: transformers and LSTM autoencoder frameworks) vs 𝛽-Decode across two public (EEG Passive Sensing and EEGdenoiseNet) and our in-house Working Memory (WoM) datasets. The top and 2nd best results are in bold and underlined, respectively. 
 
-**Installation** 
+# Installation
 
 ### Clone the Repository
 
@@ -24,10 +24,12 @@ To get started, clone this repository:
 
 ```bash
 git clone https://github.com/indrajeetghosh/Beta-Decode.git
-'''bash
+cd Beta-Decode.git
 
-Install packages:
+### Install Packages
+
+Once inside the repository directory, install the required packages by running:
 
 ```bash
 pip3 install -r requirements.txt
-'''bash
+
