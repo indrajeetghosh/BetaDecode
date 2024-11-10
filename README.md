@@ -15,3 +15,11 @@ The architecture of Beta-Decode consists of two main stages: training and infere
 ![Result](result.png)
 
 Comparison between the state-of-the-art 5 unsupervised denoising algorithms (traditional based: EEMD-ICA, ICA-HHT, and wavelet-based ICA [29] and (ii) deep learning-based: transformers and LSTM autoencoder frameworks) vs 𝛽-Decode across two public (EEG Passive Sensing and EEGdenoiseNet) and our in-house Working Memory (WoM) datasets. The top and 2nd best results are in bold and underlined, respectively. 
+
+### Clone the Repository
+
+To get started, clone this repository:
+
+```bash
+git clone 
+cd 
